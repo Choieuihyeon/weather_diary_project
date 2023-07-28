@@ -1,0 +1,18 @@
+### create Diary
+POST http://localhost:8080/create/diary?date=2023-07-28
+Content-Type: text/json
+
+{
+  "text": "오늘 코딩"
+}
+
+### read Diary
+GET http://localhost:8080/read/diary?date=2022-05-20
+
+### update Diary
+PUT http://localhost:8080/update/diary?date=2022-05-20
+Content-Type: text/json
+
+{
+  "text": "오늘 코딩꿀잼"
+}
